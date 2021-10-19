@@ -1,14 +1,11 @@
 # AWS Custom Resource Dynamo inserts CDK project
 
-Read my blog: https://kevin-van-ingen.medium.com/aws-timestream-cdk-5e1b7d760828
+Read my blog: https://kevin-van-ingen.medium.com/cdk-ses-custom-resource-for-activating-a-rule-set-41ec3939eb8
 
 This repo and the blog covers:
 
-* Base database creation
-* Base table creation
-* The table to database lifecycle dependency
-* Table data retention options
-* Table and database removal policies.
+* SES receipt rule creation
+* SES receipt rule activation through custom resource (look in the lib folder)
 
 
 ## Useful commands
