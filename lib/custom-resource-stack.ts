@@ -8,6 +8,8 @@ export class CustomResourceStack extends Stack {
     constructor(scope: Construct, id: string, props?: StackProps) {
         super(scope, id, props);
 
+        // THIS EXAMPLE STACK EXPECTS AN VALID SES EMAIL DOMAIN HAS ALREADY BEEN CREATED.
+
         const emailArchiveBucket = new Bucket(this, 'emailArchiveBucket', {
             bucketName: 'bucket-name-to-be-changed'
         });
